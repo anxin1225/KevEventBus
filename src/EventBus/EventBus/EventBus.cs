@@ -10,7 +10,6 @@ using EventBus.Factories.Internals;
 using EventBus.Handlers;
 using EventBus.Handlers.Internals;
 using EventBus.Extensions;
-using Castle.Core.Logging;
 
 namespace EventBus
 {

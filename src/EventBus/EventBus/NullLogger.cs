@@ -1,6 +1,4 @@
-﻿using Castle.Core.Logging;
-
-namespace EventBus
+﻿namespace EventBus
 {
     internal class NullLogger
     {

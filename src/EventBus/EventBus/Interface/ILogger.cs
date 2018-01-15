@@ -1,9 +1,15 @@
 ﻿using System;
 
-namespace EventBus
+namespace EventBus.Interface
 {
     public interface ILogger
     {
-        void Warn(string v, Exception ex);
+        void Info(string message);
+
+        void Debug(string message);
+
+        void Warn(string message, Exception ex);
+
+        void Error(string message, Exception ex = null);
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace EventBus
+﻿using EventBus.Interface;
+
+namespace EventBus
 {
     internal class NullLogger
     {

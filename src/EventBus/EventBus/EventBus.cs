@@ -20,11 +20,6 @@ namespace EventBus
     public class EventBus : IEventBus
     {
         /// <summary>
-        /// Gets the default <see cref="EventBus"/> instance.
-        /// </summary>
-        public static EventBus Default { get; } = new EventBus();
-
-        /// <summary>
         /// Reference to the Logger.
         /// </summary>
         public ILogger Logger { get; set; }

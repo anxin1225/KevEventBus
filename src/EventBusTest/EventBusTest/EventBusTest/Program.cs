@@ -23,6 +23,8 @@ namespace EventBusTest
             eventbus.Register<UserEventData>(handler);
             eventbus.Register<CreateUserEventData>(handler);
 
+            eventbus.Register(typeof(User), handler);
+
             Console.WriteLine($"Thread.Id {Thread.CurrentThread.ManagedThreadId}");
 
             //new Thread(() =>
